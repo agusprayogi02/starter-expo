@@ -13,7 +13,7 @@ dependencies:
     version: 1.1.18(@gluestack-style/react@1.0.52)(@gluestack-ui/themed@1.1.21)
   '@gluestack-ui/themed':
     specifier: ^1.1.21
-    version: 1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@13.4.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0)
+    version: 1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@14.1.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0)
   expo:
     specifier: ~50.0.14
     version: 50.0.14(@babel/core@7.24.4)(@react-native/babel-preset@0.73.21)
@@ -42,8 +42,8 @@ dependencies:
     specifier: ~3.29.0
     version: 3.29.0(react-native@0.73.6)(react@18.2.0)
   react-native-svg:
-    specifier: 13.4.0
-    version: 13.4.0(react-native@0.73.6)(react@18.2.0)
+    specifier: 14.1.0
+    version: 14.1.0(react-native@0.73.6)(react@18.2.0)
 
 devDependencies:
   '@babel/core':
@@ -2132,7 +2132,7 @@ packages:
       '@gluestack-ui/themed': '>=1.1'
     dependencies:
       '@gluestack-style/react': 1.0.52
-      '@gluestack-ui/themed': 1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@13.4.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0)
+      '@gluestack-ui/themed': 1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@14.1.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0)
     dev: false
 
   /@gluestack-ui/divider@0.1.8(react-dom@18.2.0)(react@18.2.0):
@@ -2487,7 +2487,7 @@ packages:
       - react-native
     dev: false
 
-  /@gluestack-ui/themed@1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@13.4.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0):
+  /@gluestack-ui/themed@1.1.21(@gluestack-style/react@1.0.52)(@types/react-native@0.73.0)(nativewind@2.0.11)(react-dom@18.2.0)(react-native-svg@14.1.0)(react-native-web@0.19.10)(react-native@0.73.6)(react@18.2.0):
     resolution: {integrity: sha512-+VUeFnO0VXroT6vk+Ld4y3JcddFwNXRoR3rFKLjJmlK5rvRnJLX0YFJmoY9ISKZKM3bj/a1bVDs3BUmui0BZSA==}
     peerDependencies:
       '@gluestack-style/react': '>=1.0'
@@ -2537,7 +2537,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-native: 0.73.6(@babel/core@7.24.4)(@babel/preset-env@7.24.4)(react@18.2.0)
-      react-native-svg: 13.4.0(react-native@0.73.6)(react@18.2.0)
+      react-native-svg: 14.1.0(react-native@0.73.6)(react@18.2.0)
       react-native-web: 0.19.10(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - nativewind
@@ -8118,8 +8118,8 @@ packages:
       warn-once: 0.1.1
     dev: false
 
-  /react-native-svg@13.4.0(react-native@0.73.6)(react@18.2.0):
-    resolution: {integrity: sha512-B3TwK+H0+JuRhYPzF21AgqMt4fjhCwDZ9QUtwNstT5XcslJBXC0FoTkdZo8IEb1Sv4suSqhZwlAY6lwOv3tHag==}
+  /react-native-svg@14.1.0(react-native@0.73.6)(react@18.2.0):
+    resolution: {integrity: sha512-HeseElmEk+AXGwFZl3h56s0LtYD9HyGdrpg8yd9QM26X+d7kjETrRQ9vCjtxuT5dCZEIQ5uggU1dQhzasnsCWA==}
     peerDependencies:
       react: '*'
       react-native: '*'
